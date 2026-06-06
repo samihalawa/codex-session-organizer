@@ -1,0 +1,5 @@
+name: codex-session-organizer
+description: >-
+  Reorganize and rename Codex Desktop/CLI sessions by editing the rollout logs
+  under ~/.codex/sessions. Move a chat to the correct project folder (fix a
+  wrong/misspelled cwd) or rename a chat. Run scripts/organize.py {list|move|rename}.
