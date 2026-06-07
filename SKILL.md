@@ -1,6 +1,6 @@
 ---
 name: codex-session-organizer
-description: Reorganize and rename Codex Desktop/CLI sessions by editing the rollout logs under ~/.codex/sessions. Use when a Codex chat shows under the wrong project (or no project), when a session's working folder is wrong/misspelled, or when the user wants to rename a Codex chat. Triggers: "link codex session to folder", "codex session wrong project", "rename codex chat", "move codex session", "reorganize codex sessions".
+description: Reorganize and rename Codex Desktop/CLI sessions by editing the rollout logs under ~/.codex/sessions. Use when a Codex chat shows under the wrong project (or no project), when a session's working folder is wrong or misspelled, or when the user wants to rename a Codex chat. Trigger phrases include link codex session to folder, codex session wrong project, rename codex chat, move codex session, and reorganize codex sessions.
 ---
 
 # Codex Session Organizer
