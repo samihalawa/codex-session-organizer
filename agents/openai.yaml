@@ -1,5 +1,4 @@
-name: codex-session-organizer
-description: >-
-  Reorganize and rename Codex Desktop/CLI sessions by editing the rollout logs
-  under ~/.codex/sessions. Move a chat to the correct project folder (fix a
-  wrong/misspelled cwd) or rename a chat. Run scripts/organize.py {list|move|rename}.
+interface:
+  display_name: "Codex Session Organizer"
+  short_description: "Reorganize and rename Codex Desktop/CLI sessions by editing the rollout logs under ~/.codex/sessions (move a chat to the right project, fix a wrong/misspelled cwd, or rename a chat)"
+  default_prompt: "Use $codex-session-organizer to fix a misfiled or misnamed Codex session. First run `python3 scripts/organize.py list` to see every session (uuid, cwd, title), then `move <id> <project-folder>` to re-file a chat under the correct project by rewriting payload.cwd, or `rename <id> \"<new title>\"` to rewrite the first user message. A common cause of an unlinked session is a malformed cwd (wrong case or a missing path segment) that resolves to nothing, so verify the corrected path is a real existing folder before moving."
